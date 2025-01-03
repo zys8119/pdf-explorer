@@ -1,4 +1,4 @@
-const isDevMode = false;
+const isDevMode = true;
 export const _debug = (msg: any) => {
   if (isDevMode) {
     if (typeof msg === "function") {
